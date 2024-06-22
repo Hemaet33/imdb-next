@@ -1,5 +1,4 @@
 function Results({result}) {
-  console.log(result);
   return (
     <div>
       {result.map(res=>(
