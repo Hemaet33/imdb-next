@@ -13,7 +13,7 @@ export default async function Home({searchParams}) {
   const results = data.results;
   return (
     <div>
-    <Results result={results} />
+    <Results results={results} />
     </div>
   )
 }
